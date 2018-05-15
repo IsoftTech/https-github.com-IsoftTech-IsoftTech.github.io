@@ -1,0 +1,196 @@
+body, html{
+	height:100%;
+}
+
+body{
+	font-size:100%;
+	background: url(../images/background.jpg);
+	background-attachment:fixed;
+}
+
+#header{
+	height:100%;
+}
+
+
+#wrapper{
+	height:80%;
+	background: url(../images/sectionbg.png);
+	background-repeat:no-repeat;
+	background-attachment:center;
+	background-size:cover;
+	border-bottom: 1em solid red;
+}
+
+
+
+#content{
+	height:100%;
+	width:100%;
+	display:table;
+}
+
+#content-box{
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+}
+
+#header img{
+	width:23em;
+	display:inline;
+}
+
+
+#header p{
+	font-size:2em;
+	font-weight:bolder;
+	margin:1em 0;
+}
+
+
+#header p:hover{
+	color:#ffffff;
+}
+
+
+
+#header #content a{
+	background-color:#ffffff;
+	font-size:2em;
+	padding:0.15em 0.5em;
+	color:blue;
+	text-decoration:none;
+	opacity:0.6;
+	border:0.15em solid black;
+}
+
+
+#header #content a:hover{
+	background-color:red;
+	opacity:1;
+	
+}
+
+
+
+
+
+nav ul li{
+		list-style: none;
+		width: 180px;
+		position: relative;
+		box-shadow: 0px 2px 5px grey;
+		text-align: center;
+		float: left; 
+		background: linear-gradient(#021527 20%, black 80%); 
+		
+	}
+
+ul li a{
+		text-decoration: none;
+		color: #ffffff; 
+		width: 100px;
+		height: 58px;
+		display: block;
+		
+	}
+
+	footer{
+	height:auto;
+	background: url(../images/f1.jpg);
+	background-repeat:no-repeat;
+	background-attachment:center;
+	background-size:cover;
+	opacity:0.8;
+
+	}
+	
+
+	footer h4{
+		color:#ffffff;
+		
+	}
+
+	footer .fa{
+		color:blue;
+		font-size:3em;
+		
+	}
+
+
+	/*PRODUCTS */
+
+	#photos{
+		padding: 3em 2em;
+	}
+	.col-md-4{
+		position:relative;
+	}
+
+	#photos img{
+		width:80%;
+		height:20em;
+		margin:2em 0;
+		border-radius:2em;
+		transition: transform 2s ease-in-out;
+	}
+
+	#photos img:hover{
+		opacity:0.8;
+		transform: scale(1.15);
+	}	
+
+	#photos h2{
+		position:absolute;
+		top:40%;
+		left:50%;
+		transform:translate(-50%, -50%);
+		border-top:0.15 solid black;
+		border-bottom:0.15 solid black;
+		color:red;
+		display:none;
+		font-size:2em;
+	}
+
+	#photos .col-md-4:hover h2{
+		display:block;
+	}
+
+	#form{
+		padding:3em 2em;
+	}
+
+	#form h1{
+		color:red;
+	}
+
+	.form{
+		background-color:#000000;
+		opacity:0.6;
+		padding:2em 1em;
+		height:50em;
+	}
+
+	.form p{
+		color:#fff;
+
+	}
+
+	.form button{
+		background-color:red;
+		font-size:3em;
+	}
+
+	.iframe{
+		background-color:#ffffff;
+		padding:2em 1em;
+		height:50em;
+	}
+
+	.iframe iframe{
+		height:30em;
+	}
+
+
+	
